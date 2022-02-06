@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Runnable mSleepTask = new Runnable() {
         public void run() {
-            //Log.i("Noise", "runnable mSleepTask");
+            Log.i("Noise", "runnable mSleepTask");
             start();
         }
     };
